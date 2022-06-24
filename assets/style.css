@@ -1,0 +1,294 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Quicksand:wght@700&family=Raleway:wght@500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&family=Poppins:wght@400;500&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    list-style: none;
+    scroll-behavior: smooth;
+}
+
+body {
+    /* background: #16213E; */
+    font-family: 'Quicksand', sans-serif;
+    color: #fff;
+}
+
+.hero{
+    background: #ffc107;
+}
+
+.backgrounD{
+    background: #16213E;
+}
+
+
+.navbar-nav a {
+    color: #fff!important;
+    font-family: 'Quicksand', sans-serif;
+}
+
+a.navbar-brand {
+    font-size: 24px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    color: #ffc107!important;
+}
+
+.nav-item {
+    padding: 0 20px;
+}
+
+
+a.nav-link {
+    font-size: 17px;
+}
+
+.nav-item a.nav-link:hover {
+    color: #ffc107!important;
+    transition: all .6s ease-in-out;
+}
+
+.nav-item a.active:hover {
+    color: #16213E!important;
+    transition: all .6s ease-in-out;
+}
+
+a.active {
+    background-color: #ffc107;
+    border-radius: 3px;
+    color: #fff;
+}
+
+.heroFont {
+    color: #16213E;
+    margin-top: 8%;
+    font-size: 56px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 500;
+}
+
+.heroFont span {
+    font-size: 21px;
+    font-family: 'Roboto';
+    font-weight: normal;
+}
+
+.hero-desc {
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+}
+
+.image img {
+    border-radius: 8px;
+    width: 150%;
+    top: 7%;
+    position: absolute;
+    right: 10%;
+}
+
+#projects {
+    margin-top: -50px;
+    background: #16213E;
+}
+
+
+.button-primary {
+    background-color: #df4759;
+    color: #fff;
+    box-shadow: 0 9px #fff;
+    border-radius: 4px;
+    padding: 10px 20px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+}
+
+.button-primary:active {
+    box-shadow: none;
+    top: 4px;
+    border: none;
+    position: relative;
+    background-color: #8B0000;
+    box-shadow: none;
+    transform: translateY(4px);
+}
+
+.button-primary:hover {
+    background-color: #8B0000;
+    border: none;
+    color: #fff;
+    text-decoration: none;
+}
+
+.tata-Cara {
+    margin-top: 10%;
+}
+
+.historiLaporan {
+    background-color: #ffc107;
+}
+
+.wow .jarak {
+    width: 150px;
+    height: 200px;
+    border-radius: 20px;
+    box-shadow: 0px -5px 10px 0px rgba(0, 0, 0, 0.5);
+    padding: 15px;  
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+.navbar-toggler-icon {
+    color: #fff;
+}
+
+/* button projek */
+.buttonPro {
+    padding: 3px; 
+    border-radius: 4px; 
+    background-color: #FFAC30; 
+    color: #fff; 
+    border: none;
+    box-shadow: 0 6px 0 #16213E;
+}
+
+.buttonPro:hover {
+    border: none;
+    background: #a5680d;
+    text-decoration: none;
+    color: #fff;
+}
+
+.buttonPro:active {
+    box-shadow: none;
+    top: 4px;
+    border: none;
+    position: relative;
+}
+
+@media screen and (max-width: 513px) {
+    .tengah {
+        margin: auto;
+        display: block !important;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .image img {
+        display: none;
+    }
+
+    .jarak {
+        margin: 0 25%;
+        margin-bottom: 5%;
+    }
+
+    .tata-Cara {
+        margin-top: 28%;
+        margin-bottom: 26%;
+    }
+
+    .textFormPel {
+        margin-top: 8%;
+    }
+
+    .jumbotron img {
+        margin-left: 20%;;
+    }
+
+    h1.judulTengah {
+        font-size: 24px;
+    }
+}
+
+@media screen and (max-width: 884px) {
+    .jarak {
+        margin: 0 25%;
+        margin-bottom: 5%;
+    }
+
+    .textFormPel {
+        margin-top: 8%;
+    }
+
+    .jumbotron img {
+        margin-left: -12%;
+        width: 120%;
+    }
+
+    h1.judulTengah {
+        font-size: 24px;
+    }
+
+}
+
+::-webkit-scrollbar {
+    width: 6px;
+}
+::-webkit-scrollbar-thumb {
+    background: #FFAC30; 
+    border-radius: 50px;
+}
+
+.textFormPel p {
+    color: #000;
+    margin-top: 8%;
+}
+
+.jumbotron {
+    color: #ffc107;
+    background-color: #16213E;
+}
+
+.jumboImage{
+    margin-left: 20%;
+    width: 60%;
+}
+
+.footer {
+    font-family: 'roboto';
+    margin-top: -50px;
+    font-size: 18px;
+    background-color: #16213E;
+    color: #fff;
+    height: 50px;
+    padding-top: 1%;
+}
+
+footer p a, footer p a:hover {
+    text-decoration: none;
+    color: #000;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.footerDuo {
+    background-color: #16213E;
+    color: #fff;
+    height: 50px;
+}
+
+.footerDuo p {
+    padding-top: 1%;
+    color: #fff;
+}
+
+a.fw-bold {
+    color: #ffc107;
+}
+
+a.fw-bold:hover {
+    color: #E30022;
+}
+
+
+
+
+
+
+
